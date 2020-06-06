@@ -151,6 +151,14 @@ No CentOS/RedHat:
 
 ```
 # sudo yum install nfs-utils -y
+# systemctl enable nfs-server
+# systemctl start nfs-server
+```
+
+Agora vamos instalar o pacote ``nfs-utils`` nos demais nodes da família CentOS/RedHat.
+
+```
+# sudo yum install nfs-utils -y
 ```
 
 Agora vamos instalar o pacote ``nfs-common`` nos demais nodes da família Debian.
